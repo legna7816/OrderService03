@@ -49,7 +49,7 @@ pipeline {
             }
         }
         stage('5. Deploy to vm7'){
-			step {
+			steps {
 				sh '''
 					ssh -o StrictHostKeyChecking=no $TARGET_USER@$TARGET_HOST <<EOF
 					# 이미지 pull 실패 시 즉시 스크립트 종료
