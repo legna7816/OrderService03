@@ -8,7 +8,7 @@ pipeline {
 	environment {
 		APP_NAME = 'order-service03-app'
 		DOCKER_TAG = 'latest'
-		IMAGE_NAME = "legna/${APP_NAME}:${DOCKER_TAG}"
+		IMAGE_NAME = "legna7816/${APP_NAME}:${DOCKER_TAG}"
 		TARGET_HOST = '192.168.56.107'
 		TARGET_USER = 'vagrant'
 		PORT = '8081'
